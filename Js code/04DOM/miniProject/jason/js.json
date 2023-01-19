@@ -1,0 +1,14 @@
+{
+    "name": "Ankush",
+    "lastName": "Kumar",
+    "Age":22,
+    "role": "intern",
+    "field": "full Stack Devloper",
+    "states": ["ice","water","gas"],
+    "myObj":{
+        "name":"nested",
+        "work": "full time",
+        "role": "intern",
+        "state": "jalandhar"
+    }
+}

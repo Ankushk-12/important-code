@@ -1,0 +1,19 @@
+service: hello-world
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  
+functions:
+  test:
+    handler: src/index.test
+    events:
+      - http:
+          path: /test
+          method: get
+          cors: true
+
+plugins:
+  - serverless-offline
